@@ -9,9 +9,9 @@ If you are new to contributing to open source, please read the following resourc
 
 ## About this Repository
 
-The purpose of this repository is creating Annotated News Article Corpus on different languages. Currently, this repository only limited to English and Sinhala Languages. This repo can be used by anyone how work with NLP or NER related tasks. Currenty this annotated corpus collection is used for the ongoing research that **'Sinhala Document Clustering using Name Entity Recognition'** 
+The purpose of this repository is to create an Annotated News Article Corpus in different languages. Currently, this repository is only limited to English and Sinhala Languages. This repo can be used by anyone who works with NLP or NER-related tasks. Currently this annotated corpus collection is used for the ongoing research that **'Sinhala Document Clustering using Name Entity Recognition'** 
 
-## How to contribute for this repo
+## How to contribute to this repo
 
 1. Star the repository.
 2. Fork the repository.
@@ -20,7 +20,7 @@ The purpose of this repository is creating Annotated News Article Corpus on diff
 
 ## 1. Star the repository
 
-Click on the **Star** button in the top right corner. Make sure that repository **starred**.
+Click on the **Star** button in the top right corner. Make sure that the repository is **starred**.
 
 ## 2. Forking the repository
 
@@ -42,7 +42,7 @@ git checkout -b branch-name
 
 Once you have forked the repository, make your changes to the code. Be sure to follow the coding style guidelines for the programming language that you are contributing to.
 
-Here the example for how to do changes.
+Here is an example of how to make changes.
 
 -----------------
 
@@ -50,7 +50,7 @@ Here the example for how to do changes.
 
 https://dininduchamikara.github.io/Pre-Annotation-Objects-Generator-NER/
 
-* Then Select the language you are familier and click on generate new button. (Note: If you are familier with Sinhala Language please be kind enough to give first pririty on Sinhala Annotations)
+* Then Select the language you are familiar with and click on the **Generate New** button. (Note: If you are familiar with Sinhala Language please be kind enough to give the first priority on Sinhala Annotations)
 
 -------------------
 
@@ -109,13 +109,13 @@ If you selected the language as English, the Generated code (JSON) can be like b
         }
       ]
 ```
-Your task is to identify the named entities on each word. The applicable named entities are only ["LOCATION", "PERSON", "ORGANIZATION", "DATE", "TIME"]. If any word not related to any of this Named Entities just simply remove it. (Note: View the [english_annotation.json](english_annotation.json) file )
+Your task is to identify the named entities on each word. The applicable named entities are only ["LOCATION", "PERSON", "ORGANIZATION", "DATE", "TIME"]. If any word is not related to any of these Named Entities just simply remove it. (Note: View the [english_annotation.json](english_annotation.json) file )
 
-Each entity array include the [word, starting index, ending index, Named Entity].
+Each entity array includes the [word, starting index, ending index, Named Entity].
 
-After identifying the named entity Just add the named intity class as final string of the array and simply remove the word string from the array. 
+After identifying the named entity Just add the named entity class as the final string of the array and simply remove the word string from the array. 
 
-The final output is like below.
+The final output is as below.
 
 ```markdown
     [
@@ -131,13 +131,13 @@ The final output is like below.
         }
     ],
 ```
-For one pull request it is enough to add one object to the corpus.
+For one pull request, it is enough to add one object to the corpus.
 
-Make sure to refer previes examples and correctly identify the named entities. 
+Make sure to refer to previous examples and correctly identify the named entities. 
 
 -----------------------
 
-### Instruction for Sinhla Annotators
+### Instruction for Sinhala Annotators
 
 If you selected the language as Sinhala, the Generated code (JSON) can be like below.
 
@@ -167,13 +167,13 @@ If you selected the language as Sinhala, the Generated code (JSON) can be like b
       }
     ],
 ```
-Your task is to identify the named entities on each word. The applicable named entities are only ["LOCATION", "PERSON", "ORGANIZATION", "DATE", "TIME"]. If any word not related to any of this Named Entities just simply remove it. (Note: View the [sinhala_annotation.json](sinhala_annotation.json) file )
+Your task is to identify the named entities on each word. The applicable named entities are only ["LOCATION", "PERSON", "ORGANIZATION", "DATE", "TIME"]. If any word is not related to any of these Named Entities just simply remove it. (Note: View the [sinhala_annotation.json](sinhala_annotation.json) file )
 
-Each entity array include the [word, starting index, ending index, Named Entity].
+Each entity array includes the [word, starting index, ending index, Named Entity].
 
-After identifying the named entity Just add the named intity class as final string of the array and simply remove the word string from the array. 
+After identifying the named entity Just add the named entity class as the final string of the array and simply remove the word string from the array. 
 
-The final output is like below.
+The final output is as below.
 
 ```markdown
     [
@@ -185,13 +185,13 @@ The final output is like below.
         }
     ],
 ```
-For one pull request it is enough to add one object to the corpus.
+For one pull request, it is enough to add one object to the corpus.
 
-Make sure to refer previes examples and correctly identify the named entities. 
+Make sure to refer to previous examples and correctly identify the named entities. 
 
 -----------------------
 
-After that just Commit and push your chages using below commands.
+After that just Commit and push your changes using the below commands.
 
 ```markdown
 git add .
