@@ -167,6 +167,15 @@
           [50, 52, "PERSON"]
         ]
       }
+    ],
+    [
+      "මේ වීඩියෝව අලුත් ම SONY Walkman Digital Music Player එක ගැන යි.",
+      {
+        "entities": [
+          [0, 2, "LOCATION"],
+          [19, 23, "ORGANIZATION"]
+        ]
+      }
     ]
   ]
 }
