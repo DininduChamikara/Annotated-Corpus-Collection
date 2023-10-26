@@ -1,6 +1,6 @@
 ## Contributing Guidelines
 
-Welcome to the Annotated Corpus Collection repository! We are excited to have you contribute to our project. Let's make your contribution to open source and earn a Hacktoberfest badge.
+Welcome to the Annotated Corpus Collection repository! We are excited to have you contribute to our project. Let's make your contribution to open source.
 
 If you are new to contributing to open source, please read the following resources:
 
@@ -9,7 +9,7 @@ If you are new to contributing to open source, please read the following resourc
 
 ## About this Repository
 
-The purpose of this repository is to create an Annotated News Article Corpus in different languages. Currently, this repository is only limited to English and Sinhala Languages. This repo can be used by anyone who works with NLP or NER-related tasks. Currently this annotated corpus collection is used for the ongoing research that **'Sinhala Document Clustering using Name Entity Recognition'** 
+The purpose of this repository is to create an Annotated News Article Corpus in different languages. Currently, this repository is only limited to English and Sinhala Languages. This repo can be used by anyone who works with NLP or NER-related tasks. Currently, this annotated corpus collection is used for the ongoing research that **'Sinhala Document Clustering using Name Entity Recognition'** 
 
 ## How to contribute to this repo
 
@@ -50,7 +50,7 @@ Here is an example of how to make changes.
 
 https://dininduchamikara.github.io/Pre-Annotation-Objects-Generator-NER/
 
-* Then Select the language you are familiar with and click on the **Generate New** button. (Note: If you are familiar with Sinhala Language please be kind enough to give the first priority on Sinhala Annotations)
+* Then Select the language you are familiar with and click on the **Generate New** button. (Note: If you are familiar with the Sinhala Language please be kind enough to give the first priority to Sinhala Annotations)
 
 -------------------
 
