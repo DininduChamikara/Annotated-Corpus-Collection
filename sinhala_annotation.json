@@ -817,6 +817,28 @@
           ]
         ]
       }
+    ],
+    [
+      "Meta අලුතින් හඳුන්වා දෙන meta business suite හි පහසුකම් ගැන මේ වීඩියෝවෙන් විමසා බලමු. ",
+      {
+        "entities": [
+          [
+            0,
+            4,
+            "ORGANIZATION"
+          ],
+          [
+            25,
+            29,
+            "ORGANIZATION"
+          ],
+          [
+            30,
+            38,
+            "ORGANIZATION"
+          ]
+        ]
+      }
     ]
   ]
 }
