@@ -55,6 +55,18 @@
             [295, 300, "LOCATION"]
           ]
         }
+      ],
+      [
+        "Spooky season is here! Even though Sri Lanka does not traditionally celebrate Halloween, it has its fair share of horror stories. Here are some of those stories that Roar has published over the years. ",
+        {
+          "entities": [
+            [7, 13, "TIME"],
+            [35, 38, "LOCATION"],
+            [39, 44, "LOCATION"],
+            [166, 170, "ORGANIZATION"],
+            [194, 200, "TIME"]
+          ]
+        }
       ]
     ]
   ]
