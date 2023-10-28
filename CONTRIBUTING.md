@@ -29,7 +29,7 @@ To fork the repository, click on the Fork button on the repository's GitHub page
 - **Clone** your fork down to your local machine
 
 ```markdown
-git clone https://github.com/DininduChamikara/Annotated-Corpus-Collection-Hacktoberfest.git
+git clone https://github.com/[YOUR_GITHUB_USERNAME]/Annotated-Corpus-Collection-Hacktoberfest.git
 ```
 
 - Create a branch
