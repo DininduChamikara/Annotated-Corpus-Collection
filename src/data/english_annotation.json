@@ -1,0 +1,71 @@
+{
+  "classes": ["LOCATION", "PERSON", "ORGANIZATION", "DATE", "TIME"],
+  "annotations": [
+    [
+      "While #Scrabble is relatively popular as a leisure activity, it is not yet widely acknowledged as a competitive sport in Sri Lanka. However, with local players winning big at international tournaments, this is slowly beginning to change. Meet Sri Lanka’s Scrabble champions!",
+      {
+        "entities": [
+          [121, 124, "LOCATION"],
+          [125, 131, "LOCATION"],
+          [152, 159, "PERSON"],
+          [243, 246, "LOCATION"],
+          [247, 254, "LOCATION"]
+        ]
+      }
+    ],
+    [
+      "Spooky season is here! Even though Sri Lanka does not traditionally celebrate Halloween, it has its fair share of horror stories. Here are some of those stories that Roar has published over the years. ",
+      {
+        "entities": [
+          [7, 13, "TIME"],
+          [35, 38, "LOCATION"],
+          [39, 44, "LOCATION"],
+          [166, 170, "ORGANIZATION"],
+          [194, 200, "TIME"]
+        ]
+      }
+    ],
+    [
+      "It’s been a rough four years for the wedding industry to contend with. In 2018, Sri Lanka was voted the best country in the world to visit, and the industry geared up for an influx of destination weddings.",
+      {
+        "entities": [
+          [18, 22, "TIME"],
+          [23, 28, "TIME"],
+          [74, 79, "DATE"],
+          [80, 83, "LOCATION"],
+          [84, 89, "LOCATION"],
+          [109, 116, "LOCATION"],
+          [124, 129, "LOCATION"]
+        ]
+      }
+    ],
+    [
+      "Sri Lanka’s electrical needs took a hard hit this year. With daily islandwide power cuts as a result of the ongoing economic crisis, as well as power plants repeatedly breaking down, you wouldn’t think a country that established its first public electricity supply more than a hundred years ago would be so prone to collapse.",
+      {
+        "entities": [
+          [0, 3, "LOCATION"],
+          [4, 11, "LOCATION"],
+          [50, 55, "TIME"],
+          [61, 66, "TIME"],
+          [150, 156, "LOCATION"],
+          [204, 211, "LOCATION"],
+          [285, 290, "TIME"],
+          [291, 294, "TIME"],
+          [295, 300, "LOCATION"]
+        ]
+      }
+    ],
+    [
+      "Spooky season is here! Even though Sri Lanka does not traditionally celebrate Halloween, it has its fair share of horror stories. Here are some of those stories that Roar has published over the years. ",
+      {
+        "entities": [
+          [7, 13, "TIME"],
+          [35, 38, "LOCATION"],
+          [39, 44, "LOCATION"],
+          [166, 170, "ORGANIZATION"],
+          [194, 200, "TIME"]
+        ]
+      }
+    ]
+  ]
+}
