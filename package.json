@@ -6,9 +6,7 @@
   "dependencies": {
     "@monaco-editor/react": "4.6.0",
     "@testing-library/jest-dom": "5.17.0",
-    "@testing-library/react": "13.4.0",
     "@testing-library/user-event": "13.5.0",
-    "@types/jest": "27.5.2",
     "@types/node": "16.18.112",
     "@types/react": "18.3.11",
     "@types/react-dom": "18.3.0",
@@ -45,6 +43,14 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "^7.25.7",
+    "@babel/preset-env": "^7.25.7",
+    "@babel/preset-react": "^7.25.7",
+    "@babel/preset-typescript": "^7.25.7",
+    "@testing-library/react": "^16.0.1",
+    "@types/jest": "^29.5.13",
+    "babel-jest": "^29.7.0",
+    "jest": "^27.5.1",
     "tailwindcss": "3.4.13"
   }
 }
