@@ -4,9 +4,8 @@ import anotatedDataSetEnglish from "./data/english_annotation.json";
 import CodeBox from "./components/CodeBox";
 
 function App() {
-
-  const sinhalaJSON = JSON.stringify(anotatedDataSetSinhala)
-  const englishJSON = JSON.stringify(anotatedDataSetEnglish)
+  const sinhalaJSON = JSON.stringify(anotatedDataSetSinhala);
+  const englishJSON = JSON.stringify(anotatedDataSetEnglish);
 
   const [dataset, setDataset] = useState(sinhalaJSON);
 
@@ -41,12 +40,12 @@ function App() {
                 <option value="english">English</option>
               </select>
             </div>
-            <div
-              className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-2xl flex items-center align-middle justify-center cursor-pointer w-1/2 h-10"
-            >
+            <div className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-2xl flex items-center align-middle justify-center cursor-pointer w-1/2 h-10">
               Download Dataset JSON
             </div>
-            <a href="https://dininduchamikara.github.io/Pre-Annotation-Objects-Generator-NER/" target="blank"
+            <a
+              href="https://dininduchamikara.github.io/Pre-Annotation-Objects-Generator-NER/"
+              target="blank"
               className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-2xl flex items-center align-middle justify-center cursor-pointer w-1/2 h-10"
             >
               Create Annotation
@@ -83,7 +82,7 @@ function App() {
           </div>
         </div>
         <div className="w-1/2">
-          <CodeBox code={dataset} setCode={setDataset} />
+          <CodeBox code={dataset} />
         </div>
       </div>
     </div>
