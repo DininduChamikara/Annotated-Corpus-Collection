@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Annotated-Corpus-Collection/static/css/main.a7a3d3dd.css",
+    "main.js": "/Annotated-Corpus-Collection/static/js/main.3fcd4e3d.js",
+    "static/js/453.49257529.chunk.js": "/Annotated-Corpus-Collection/static/js/453.49257529.chunk.js",
+    "index.html": "/Annotated-Corpus-Collection/index.html",
+    "main.a7a3d3dd.css.map": "/Annotated-Corpus-Collection/static/css/main.a7a3d3dd.css.map",
+    "main.3fcd4e3d.js.map": "/Annotated-Corpus-Collection/static/js/main.3fcd4e3d.js.map",
+    "453.49257529.chunk.js.map": "/Annotated-Corpus-Collection/static/js/453.49257529.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7a3d3dd.css",
+    "static/js/main.3fcd4e3d.js"
+  ]
+}
