@@ -18,8 +18,6 @@ function App() {
     }
   };
 
-  // const [code, setCode] = useState("");
-
   return (
     <div className="p-5 px-10">
       <div className="text-4xl font-bold text-center pt-5">
