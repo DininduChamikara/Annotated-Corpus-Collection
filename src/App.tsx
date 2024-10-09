@@ -18,6 +18,17 @@ function App() {
     }
   };
 
+  const handleDownloadDataset = () => {
+    const blob = new Blob([dataset], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = "dataset.json";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="p-5 px-10">
       <div className="text-4xl font-bold text-center pt-5">
@@ -26,10 +37,10 @@ function App() {
       <div className="text-2xl font-semibold italic text-center pb-10 text-amber-800">
         for NLP Researches
       </div>
-      <div className="flex gap-5">
-        <div className="w-1/2">
-          <div className="flex gap-5 w-full">
-            <div className="w-1/2">
+      <div className="block sm:flex gap-5">
+        <div className="w-full sm:w-1/2">
+          <div className="flex flex-col sm:flex-row gap-3 w-full">
+            <div className="sm:w-1/2">
               <select
                 onChange={handleOnChangeLanguage}
                 className="bg-blue-500 text-white font-bold py-2 px-4 rounded-2xl flex items-center cursor-pointer w-full h-10"
@@ -38,18 +49,21 @@ function App() {
                 <option value="english">English</option>
               </select>
             </div>
-            <div className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-2xl flex items-center align-middle justify-center cursor-pointer w-1/2 h-10">
+            <div
+              onClick={handleDownloadDataset}
+              className="bg-red-500 hover:bg-red-700 text-white text-center font-bold py-2 px-4 rounded-2xl flex items-center align-middle justify-center cursor-pointer sm:w-1/2 h-10"
+            >
               Download Dataset JSON
             </div>
             <a
               href="https://dininduchamikara.github.io/Pre-Annotation-Objects-Generator-NER/"
               target="blank"
-              className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-2xl flex items-center align-middle justify-center cursor-pointer w-1/2 h-10"
+              className="bg-green-500 hover:bg-green-700 text-white text-center font-bold py-2 px-4 rounded-2xl flex items-center align-middle justify-center cursor-pointer sm:w-1/2 h-10"
             >
               Create Annotation
             </a>
           </div>
-          <div className="pt-14 font-semibold text-2xl">About</div>
+          <div className="pt-10 font-semibold text-2xl">About</div>
           <div className="pt-5">
             The purpose of this application is to create pre-annotated objects
             for News Article Corpus for various languages. Currently this
@@ -60,7 +74,7 @@ function App() {
             Clustering using Name Entity Recognition'.
           </div>
           <div className="pt-10 font-semibold text-2xl">How it use?</div>
-          <div className="pt-5">
+          <div className="py-5">
             <ol className="list-decimal list-inside">
               <li>
                 Select the language you want to generate pre-annotated objects.
@@ -79,7 +93,7 @@ function App() {
             </ol>
           </div>
         </div>
-        <div className="w-1/2">
+        <div className="sm:w-1/2">
           <CodeBox code={dataset} />
         </div>
       </div>
