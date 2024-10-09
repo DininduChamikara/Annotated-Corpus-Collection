@@ -2,7 +2,7 @@
   "name": "annotated-corpus-collection",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://DininduChamikara.github.io/annotated-corpus-collection",
+  "homepage": "https://DininduChamikara.github.io/Annotated-Corpus-Collection",
   "dependencies": {
     "@monaco-editor/react": "4.6.0",
     "@testing-library/jest-dom": "5.17.0",
