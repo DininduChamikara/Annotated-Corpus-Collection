@@ -9,7 +9,8 @@
 ![GitHub stars](https://img.shields.io/github/stars/DininduChamikara/Annotated-Corpus-Collection-Hacktoberfest.svg?style=social&label=Star)
 
 
-Maintained as a collection of **Annotated Corpus Collection**.
+Maintained as a **[Annotated Corpus Collection](https://dininduchamikara.github.io/Annotated-Corpus-Collection/)**.
+
 
 ## How can I contribute
 
