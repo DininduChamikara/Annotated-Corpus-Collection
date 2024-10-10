@@ -54,6 +54,10 @@ https://dininduchamikara.github.io/Pre-Annotation-Objects-Generator-NER/
 
 -------------------
 
+**You should do your contributions only on [english_annotation.json](src/data/english_annotation.json) or [sinhala_annotation.json](src/data/sinhala_annotation.json) files in the "src/data" direcory. Do not change any other files. If not your PR will be rejected.** 
+
+-------------------
+
 ### Instruction for English Annotators
 
 If you selected the language as English, the Generated code (JSON) can be like below.
@@ -167,7 +171,7 @@ If you selected the language as Sinhala, the Generated code (JSON) can be like b
       }
     ],
 ```
-Your task is to identify the named entities on each word. The applicable named entities are only ["LOCATION", "PERSON", "ORGANIZATION", "DATE", "TIME"]. If any word is not related to any of these Named Entities just simply remove it. (Note: View the [sinhala_annotation.json](sinhala_annotation.json) file )
+Your task is to identify the named entities on each word. The applicable named entities are only ["LOCATION", "PERSON", "ORGANIZATION", "DATE", "TIME"]. If any word is not related to any of these Named Entities just simply remove it. (Note: View the [sinhala_annotation.json](src/data/sinhala_annotation.json) file )
 
 Each entity array includes the [word, starting index, ending index, Named Entity].
 
