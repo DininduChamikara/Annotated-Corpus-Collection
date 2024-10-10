@@ -109,7 +109,7 @@ If you selected the language as English, the Generated code (JSON) can be like b
         }
       ]
 ```
-Your task is to identify the named entities on each word. The applicable named entities are only ["LOCATION", "PERSON", "ORGANIZATION", "DATE", "TIME"]. If any word is not related to any of these Named Entities just simply remove it. (Note: View the [english_annotation.json](english_annotation.json) file )
+Your task is to identify the named entities on each word. The applicable named entities are only ["LOCATION", "PERSON", "ORGANIZATION", "DATE", "TIME"]. If any word is not related to any of these Named Entities just simply remove it. (Note: View the [english_annotation.json](src/data/english_annotation.json) file )
 
 Each entity array includes the [word, starting index, ending index, Named Entity].
 
