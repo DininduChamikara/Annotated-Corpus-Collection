@@ -9,7 +9,7 @@ If you are new to contributing to open source, please read the following resourc
 
 ## About this Repository
 
-The purpose of this repository is to create an Annotated News Article Corpus in different languages. Currently, this repository is only limited to English and Sinhala Languages. This repo can be used by anyone who works with NLP or NER-related tasks. Currently, this annotated corpus collection is used for the ongoing research that **'Sinhala Document Clustering using Name Entity Recognition'** 
+The purpose of this repository is to create an Annotated News Article Corpus in different languages. Currently, this repository is only limited to English and Sinhala Languages. This repo can be used by anyone who works with NLP or NER-related tasks.
 
 ## How to contribute to this repo
 
