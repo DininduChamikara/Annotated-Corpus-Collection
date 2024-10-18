@@ -18,16 +18,54 @@ function App() {
     }
   };
 
-  const handleDownloadDataset = () => {
-    const blob = new Blob([dataset], { type: "application/json" });
+  const handleDownloadDataset = (fileType: string) => {
+    let blob: Blob;  
+    const fileName = `dataset.${fileType}`;
+
+    if (fileType === "json") {
+      blob = new Blob([dataset], { type: "application/json" });
+    }
+    //for csv file 
+    else if (fileType === "csv") {
+      const csvData = convertToCSV(JSON.parse(dataset));
+      blob = new Blob([csvData], { type: "text/csv" });
+    }
+    //for txt file
+    else if (fileType === "txt") {
+      const txtData = convertToTXT(JSON.parse(dataset));
+      blob = new Blob([txtData], { type: "text/plain" });
+    } 
+    else {
+      return; 
+    }
+
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
-    link.download = "dataset.json";
+    link.download = fileName;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
+};
+  //function to convert the file to csv
+  const convertToCSV = (data: any) => {
+    const csvRows = [];
+    const headers = ['Text', 'Entities'];
+    csvRows.push(headers.join(','));
+  
+    data.annotations.forEach((annotation: any) => {
+      const text = annotation[0].replace(/,/g, ''); 
+      const entities = JSON.stringify(annotation[1].entities);
+      csvRows.push(`${text},${entities}`);
+    });
+  
+    return csvRows.join('\n');
   };
+  //function to convert the file to txt
+  const convertToTXT = (data: any) => {
+    return data.annotations.map((annotation: any) => annotation[0]).join('\n');
+  };
+  
 
   return (
     <div className="p-5 px-10">
@@ -49,12 +87,20 @@ function App() {
                 <option value="english">English</option>
               </select>
             </div>
-            <div
-              onClick={handleDownloadDataset}
-              className="bg-red-500 hover:bg-red-700 text-white text-center font-bold py-2 px-4 rounded-2xl flex items-center align-middle justify-center cursor-pointer sm:w-1/2 h-10"
+            {/* dropdown to download desired file */}
+            <div className="flex space-x-4">
+            <select
+              onChange={(e) => handleDownloadDataset(e.target.value)}
+              className="bg-blue-500 text-white font-bold py-2 px-4 rounded-2xl flex items-center cursor-pointer h-10"
             >
-              Download Dataset JSON
-            </div>
+              <option value="">Download Dataset</option>
+              <option value="json">Download JSON</option>
+              <option value="csv">Download CSV</option>
+              <option value="txt">Download TXT</option>
+            </select>
+          </div>
+
+
             <a
               href="https://dininduchamikara.github.io/Pre-Annotation-Objects-Generator-NER/"
               target="blank"
