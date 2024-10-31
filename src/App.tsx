@@ -81,7 +81,7 @@ function App() {
             <div className="sm:w-1/2">
               <select
                 onChange={handleOnChangeLanguage}
-                className="bg-blue-500 text-white font-bold py-2 px-4 rounded-2xl flex items-center cursor-pointer w-full h-10"
+                className="bg-blue-500 hover:bg-blue-700 focus:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg flex items-center cursor-pointer w-full h-10 mr-2 shadow-lg hover:shadow-xl focus:shadow-xl transform hover:scale-105 focus:scale-105 transition duration-200"
               >
                 <option value="sinhala">Sinhala</option>
                 <option value="english">English</option>
@@ -91,7 +91,7 @@ function App() {
             <div className="flex space-x-4">
             <select
               onChange={(e) => handleDownloadDataset(e.target.value)}
-              className="bg-blue-500 text-white font-bold py-2 px-4 rounded-2xl flex items-center cursor-pointer h-10"
+              className="bg-blue-500 hover:bg-blue-700 focus:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg flex items-center cursor-pointer w-auto h-10 mr-2 shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-200"
             >
               <option value="">Download Dataset</option>
               <option value="json">Download JSON</option>
@@ -104,7 +104,7 @@ function App() {
             <a
               href="https://dininduchamikara.github.io/Pre-Annotation-Objects-Generator-NER/"
               target="blank"
-              className="bg-green-500 hover:bg-green-700 text-white text-center font-bold py-2 px-4 rounded-2xl flex items-center align-middle justify-center cursor-pointer sm:w-1/2 h-10"
+              className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg flex items-center justify-center cursor-pointer w-1/3 h-10 ml-2 shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-200"
             >
               Create Annotation
             </a>
