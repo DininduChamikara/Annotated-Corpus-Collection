@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Annotated-Corpus-Collection/static/css/main.fd18cfdf.css",
-    "main.js": "/Annotated-Corpus-Collection/static/js/main.718791ab.js",
+    "main.js": "/Annotated-Corpus-Collection/static/js/main.bb5a5909.js",
     "static/js/453.49257529.chunk.js": "/Annotated-Corpus-Collection/static/js/453.49257529.chunk.js",
     "index.html": "/Annotated-Corpus-Collection/index.html",
     "main.fd18cfdf.css.map": "/Annotated-Corpus-Collection/static/css/main.fd18cfdf.css.map",
-    "main.718791ab.js.map": "/Annotated-Corpus-Collection/static/js/main.718791ab.js.map",
+    "main.bb5a5909.js.map": "/Annotated-Corpus-Collection/static/js/main.bb5a5909.js.map",
     "453.49257529.chunk.js.map": "/Annotated-Corpus-Collection/static/js/453.49257529.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd18cfdf.css",
-    "static/js/main.718791ab.js"
+    "static/js/main.bb5a5909.js"
   ]
 }
